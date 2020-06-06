@@ -1,0 +1,1134 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+*{
+    margin:0px;
+    padding: 0px;
+    line-height: 1.6;
+
+}
+
+body{
+    margin: 0%;
+    padding: 0%;   
+}
+::placeholder{
+    position: absolute !important;
+    left: 15px !important;
+
+}
+
+li{
+   
+    list-style: none;
+}
+
+
+li:hover{
+    
+    list-style:none;
+    
+}
+
+
+/******** Top Header section  ********/
+.top{
+
+    background: linear-gradient(to bottom, #ffffff 0%, #ff6600 100%);
+   
+    
+}
+
+.main-icco{
+    padding:5px 5px;
+    color: white !important;
+    background-color: aqua !important;
+    border-radius: 100px;
+
+
+}
+.icco span{
+    margin-top:1% !important;
+
+
+}
+
+.Infor{
+    padding:10px 14px !important;
+	margin-right: 5px !important;
+	background-color:brown;
+	border-radius:5px 5px 5px 5px;
+	color:white !important;
+}
+
+/*************  Top is Ended **********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************  Header  is Started  **********/
+
+
+header{
+    margin: 15px 0px;
+
+
+}
+
+.logo01 h2{
+    font-family: 'Kaushan Script', cursive;
+    color: blue;
+    font-size: 2.2rem;
+    margin-top: 5px;
+
+}
+
+.log-iccon{
+    position: absolute;
+    top:4px;
+    left: 15px;
+    z-index: 1;
+    color: orangered !important;
+}
+
+.Subscribe{
+    width:100%;
+    height:auto;
+    margin:10px auto;
+    text-align: left;
+
+}
+
+.subscribe-input{
+    border-radius: 20px 0px 0px 20px !important;
+    min-width:150px;
+    min-height: 45px;
+}
+
+
+
+.subscribe-bten{
+    background-color:orangered !important;
+    color:white !important;
+    border-radius: 0px 5px 5px 0px !important;
+    min-width: 140px;
+    min-height: 45px;
+}
+
+.Doller{
+    margin-left: 10px;
+    color: orangered;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 900;
+
+}
+
+/*************  Header  is Ended **********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************  Navbar is Started  **********/
+
+
+
+.log img{
+	height:40px;
+	
+}
+.nave{
+   /* background: linear-gradient(to bottom, #ff9933 9%, #99ffcc 100%);*/
+   background-color: BLACK !important;
+  
+
+}
+
+
+.nav-item a{
+	padding:10px 30px !important;
+	margin-right: 5px !important;
+    color:white !important;
+    text-align: center !important;
+    border-left: 1px solid orangered;
+    border-left: 1px solid orangered;
+
+
+
+}
+.nav-iccon a{
+    text-align: center !important;
+
+}
+
+.home{
+    padding:10px 30px !important;
+	margin-right: 5px !important;
+	box-shadow: 2px 2px white;
+	border-radius:20px 20px 20px 20px;
+    color:green !important;
+    border-left: 1px solid orangered;
+    border-left: 1px solid orangered;
+    background: orangered;
+
+
+
+}
+.nav-item a:hover{
+	padding:10px 30px !important;
+	margin-right: 5px !important;
+	box-shadow: 2px 2px white;
+	border-radius:20px 20px 20px 20px;
+    color:green !important;
+    border-left: 1px solid orangered;
+    border-left: 1px solid orangered;
+    background: orangered;
+
+}
+
+.dropdown-menu{
+	padding:5px 8px !important;
+	margin: 5px 15px !important;
+	font-size: 15px !important;
+    background-color:whitesmoke !important;
+    border-top: 4px solid greenyellow !important ;
+    border-radius: none !important;
+    letter-spacing: 0.2rem !important;
+    font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
+     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+	
+	
+
+}
+
+.dropdown-item{
+	transition: 0.6s ease !important;
+	border-radius: 1px 1px 1px 1px !important;
+	font-family:'Open Sans' , sans-serif !important;
+	text-align: center;
+}
+.dropdown-item:hover{
+	transform:translateX(5px);
+
+}
+
+
+.iccon-01{
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 50px !important;
+    color:orangered!important;
+    
+    
+
+
+
+}
+
+
+
+
+/*************  Navbar is Ended **********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************  Slider is Started **********/
+
+.Slidee img{
+    background-repeat: no-repeat ;
+    background-size: 100% 100%;
+    width: 100%;
+    position: relative;
+    height: 600px !important;
+    opacity: .8 ;
+    background-image:linear-gradient(rgba(0,168,255,0.3) , rgba(0,168,255,0.3) ) ,url(images/maxresdefault.jpg);
+    z-index: 0;
+
+}
+
+.header-section{
+	width:100%;
+	height:inherit;
+	color:#FFF;
+	position:relative;
+    text-align:center;
+    z-index: 1;
+    opacity: 1;
+	}
+
+.Centre-div{
+	width:100%;
+	height:auto;
+    position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+    color:white;
+    padding: 0 10px 0 20px ;
+    font-family: 'Piedra', cursive;
+    font-size:4.5rem;
+    z-index: 1;
+    opacity: 1;
+    }
+    
+.Centre-divp{
+    width:100%;
+    height:auto;
+    position:absolute;
+    top:60%;
+    left:60%;
+    transform:translate(-60%,-60%);
+    -ms-transform:translate(-60%,-60%);
+    -webkit-transform:translate(-60%,-60%);
+    font-family: 'Piedra', cursive;
+    color:white;
+     font-size:1.1rem;
+     padding: 0 10px 0 20px ;
+     z-index: 1;
+     opacity: 1;
+        
+}
+    
+
+/*************  Slider is Started **********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************  Card System is Started **********/
+
+
+
+.Headdings h2{
+
+    text-align: center;
+    border-bottom:2px solid #66ff33;
+    font-family: 'Chelsea Market', cursive;
+    font-size: 2.0rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: lightseagreen;
+    font-weight: 900;
+
+
+}
+.extra-div{
+	background-color: #fff;
+    border: medium none;
+    padding:50px;
+	border-radius: 3px;
+	transition: 0.6s ease;
+	box-sizing: border-box !important;
+    border: 2px solid orange;
+    border-radius: 10px 10px 10px 10px;
+    height: 270px !important;
+    width:90%;
+    -webkit-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.75);
+    transition: 0.6s ease;
+
+}
+
+.extra-div .icon-wrapper:hover{
+	
+    -webkit-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.75);
+    transform:translateY(-20px);
+
+}
+
+.extra-div h1 , p{
+    text-align: center;
+    color: black;
+    font-family: 'Chelsea Market', cursive;
+    
+}
+
+.iccon02{
+    margin-top: 20px !important;
+    font-size: 4rem !important;
+}
+.icon-wrapper{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 3rem;
+    line-height: 96px;
+    display: inline-block;
+    position: absolute;
+    top: -35px;
+    left: 35%;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    display: inline-block;
+    transition: 0.6s ease;
+}
+
+
+.icon-wrapper:hover{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 3rem;
+    line-height: 96px;
+    display: inline-block;
+    position: absolute;
+    top: -35px;
+    left: 35%;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    display: block;
+}
+
+
+
+
+
+/*************  Card System is Ended  **********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************  Producct 01 is Started  **********/
+
+
+.box{
+    text-align:center;
+    border:1px solid rgba(0,0,0,0.2);
+    box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.3);
+    border-radius:5px;
+    transition:0.3s ease;
+    background-color:whitesmoke;
+
+}
+
+.box:hover{
+    background-color: whitesmoke;
+
+}
+
+
+.carousel-indicators{
+    position:absolute;
+    right:0;
+    bottom:-60px !important;
+}
+
+
+.carousel-indicators li{
+    background-color:#16c9f6 !important;
+}
+
+.box a{
+    position: relative;
+
+}
+
+.box a img{
+    width:350px;
+    height:200px;
+    border-radius:5px 5px 5px 5px;
+    margin-top: 20px;
+
+}
+
+
+
+.box h1{
+    font-size:18px;
+    font-weight: 400;
+    color:#000000;
+    margin-bottom: 10px;
+
+}
+/*
+.ul-obj li{
+    text-decoration: none;
+    
+    line-height:1.6 !important;
+    font-size:18px;
+    font-weight: 900;
+    color:#000000;
+    margin-bottom: 20px;
+    border-bottom: 1px solid orangered;
+    padding: 5px 10px !important;
+    color:orange;
+   
+}*/
+
+.btt-ull li{
+    line-height: 1.6 !important;
+    margin: 25px 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.btt-ull li a{
+
+
+    border-color: 1px solid rgb(241, 114, 114);
+    border-radius: 2px 2px 2px 2px;
+    border-bottom: 3px solid orangered;
+    margin: 0 5px;
+    padding:12px 35px;
+    color:black;
+    font-size:1rem;
+    font-weight: 500;
+    line-height: 2.4;
+    outline: none;
+    text-align:center;
+    transition: 0.6s ease;
+    
+}
+
+
+.btt-ull li a:hover{
+    border-color: 1px solid rgb(241, 114, 114);
+    border-radius: 10px 10px 10px 10px;
+    border-bottom: 3px solid orangered;
+    margin: 0 5px;
+    padding:12px 35px;
+    color:#ffffff;
+    font-size:1rem;
+    font-weight: 500;
+    line-height: 2.4;
+    outline: none;
+    text-align:center;
+    background-color: orangered;
+    list-style: none;
+    transform:translateY(-20px);
+    
+}
+
+
+.bttn-card li a{
+    border-color: 1px solid rgb(241, 114, 114);
+    border-radius: 10px 10px 10px 10px;
+    border-bottom: 3px solid orangered;
+    margin: 25px 5px;
+    padding:12px 35px;
+    color:orangered;
+    font-size:1rem;
+    font-weight: 500;
+    line-height: 2.4;
+    width:120px;
+    outline: none;
+    text-align:center;
+    background-color: black;
+    list-style: none;
+
+   
+
+}
+
+.bttn-card li a:hover{
+    border-color: 1px solid rgb(241, 114, 114);
+    border-radius: 10px 10px 10px 10px;
+    border-bottom: 3px solid black;
+    margin: 25px 5px;
+    padding:12px 35px;
+    color:black;
+    font-size:1rem;
+    font-weight: 500;
+    line-height: 2.4;
+    width:120px;
+    outline: none;
+    text-align:center;
+    background-color: orangered;
+    list-style: none;
+
+   
+
+}
+
+
+
+
+.bttn-card li {
+    line-height: 1.6 !important;
+    margin: 25px 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*************  Producct 01 is Ended  **********/
+
+
+
+
+
+
+
+
+
+
+/*************  Producct is Started  **********/
+.product{
+    margin: 30px 0px;
+    width: 100%;
+    height:auto ;
+    padding: 20px 5px;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.3);
+
+
+}
+
+
+
+
+.product img{
+    width: 80%;
+    text-align: center;
+    border: 5px solid white;
+    background-color: whitesmoke;
+    
+}
+
+
+.product h3{
+    text-align: center;
+    width:100%;
+    padding: 13px 5px;
+    color: blue;
+    background-color: whitesmoke;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    font-size: 20px;
+    margin-bottom: 0; 
+    text-align:center;
+    font-family: 'Kaushan Script', cursive;
+
+
+}
+
+.rating{
+    display: inline-block;
+     margin: 5px 2px;
+
+}
+
+
+.price01{
+    text-align: center;
+    width: 200px;
+    padding:10px 20px;
+    margin: 10px 5px; 
+    border-radius:5px 5px 5px 5px;
+    margin-left: 100px;
+    background-color: blue;
+    color: white;
+    margin-bottom: 10px;
+
+
+
+
+}
+.Product-button{
+    margin: 10px 2px !important;
+
+
+}
+.Product-button a{
+    border-color: 1px solid #fff;
+    border-radius: 10px;
+    margin: 20px 5px;
+    padding:12px 35px;
+    color:#fff;
+    background-color: orangered;
+    font-size:1rem;
+    font-weight: 500;
+    line-height: 1.4;
+    outline: none;
+    text-align:center;
+    
+
+
+}
+
+.Product-button a:hover{
+    color: #50d1c0;
+    background-color:blue;
+    box-shadow:0 0 20px 0 rgba(0,0,0,0.3);
+    text-decoration:none;
+   
+
+}
+/*************  Producct is Ended  **********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************  Producct Feature Heading is Started  **********/
+
+
+
+.pro-head{
+    margin-top:  50px;
+    margin-bottom:  50px;
+}
+
+
+
+
+.pro-head h2{
+        margin: 10px 5px;
+        text-align: center;
+        font-weight: 300;
+        font-size: 3.5rem;
+        color: blue;
+        border-bottom: 2px solid orangered;
+        font-family: 'Kaushan Script', cursive;
+
+
+
+}
+
+
+/*************  Producct Feature Heading is Started  **********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************  Producct Feature  is Started  **********/
+
+
+.Feaure{
+    background-color: whitesmoke;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.product-Feature{
+
+    margin: 30px 0px;
+    width: 100%;
+    height:auto ;
+    padding: 20px 10px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.3);
+
+
+}
+
+
+
+.product-Feature img{
+    width: 80%;
+    text-align: center;
+    border: 5px solid white;
+    background-color: whitesmoke;
+    
+}
+
+
+.product-Feature h3{
+    text-align: center;
+    width:100%;
+    padding: 13px 5px;
+    color: blue;
+    background-color: white;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    font-size: 20px;
+    margin-bottom: 0; 
+    text-align:center;
+    font-family: 'Kaushan Script', cursive;
+
+
+}
+
+
+.product-Feature p{
+    text-align: center;
+    width:100%;
+    padding: 13px 5px;
+    color: black    ;
+    background-color: white;
+ 
+    font-size: 11px;
+    margin-bottom: 0; 
+    text-align:center;
+    font-family: 'Kaushan Script', cursive;
+
+
+}
+.price02{
+    text-align: center;
+    width: 100px;
+    padding:5px 20px;
+    margin: 0px 5px; 
+    border-radius:5px 5px 5px 5px;
+    margin-left: 94px;
+    background-color: blue;
+    color: white;
+    margin-bottom: 10px;
+
+
+}
+
+
+.Product-button-Feature a{
+    border-color: 1px solid #fff;
+    border-radius: 10px;
+    margin: 5px 5px;
+    padding:10px 35px;
+    color:#fff;
+    background-color: orangered;
+    font-size:1rem;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: none;
+    text-align:center;
+    
+    
+}
+
+
+
+.Product-button-Feature  a:hover{
+    color: #50d1c0;
+    background-color:blue;
+    box-shadow:0 0 20px 0 rgba(0,0,0,0.3);
+    text-decoration:none;
+   
+
+}
+
+/*************  Producct Feature is Ending  **********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************  Counter  is Started  **********/
+
+.counte{
+    margin-top: 100px;
+    margin-bottom: 100px;
+	color:white;
+	padding:100px 0px;
+	font-size: 4rem;
+}
+
+.counte h1{
+	font-size:54px;
+
+}
+.icco{
+	height:50px;
+}
+
+.coun-iccon{
+    color:blue;
+}
+
+
+/*************  Counter  is Ending  **********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************  product 004 is Started  **********/
+
+.pro-04{
+        margin-top:80px;
+        margin-bottom: 100px;
+
+
+}
+
+
+.new-pro{
+    margin-top:80px;
+    margin-bottom: 100px;
+
+}
+
+
+.what-we{
+
+margin-top:80px;
+margin-bottom: 100px;
+
+}
+/*************  product 004 is Ended   **********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /********** Footer is Started ************/
+  footer{
+	width: 100%;
+	height:auto;
+    background: url(images/ecommerce-software.jpg) no-repeat center;
+	color:grey;
+	opacity: 1;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5;
+	font-size:22px;
+}
+
+.lef{
+		margin:70px 20px;
+
+
+}
+
+.lis p{
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.7;
+	font-size:14px;
+	font-weight: 400;
+	text-align: left;
+
+
+
+}
+
+ul{
+	text-decoration: none;
+	list-style: none;
+
+}
+.lis ul li{
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.8;
+	font-size:16px;
+    color:white;
+    font-weight:900;
+
+}
+
+.lis ul li i{
+		font-weight: 700;
+		color:green;
+		padding:3%;
+
+}
+
+.use h5{
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.8;
+	border-bottom:  2px solid #bbb;
+	margin-top:30px;
+	font-weight: bolder;
+	color:white;
+
+
+
+}
+
+.contect{
+	margin-top:40px;
+	font-weight: bolder;
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.8;
+
+
+
+}
+
+
+.conta{
+	margin:40px 3px;
+	
+}
+
+.conta i{
+	font-size:0.9rem !important;
+
+}
+
+.conta i:hover{
+	font-size:0.9rem !important;
+	background-color: aqua;
+
+}
+
+.iccoo{
+	padding: 1%;
+	background-color:#316DC3;
+	color:white;
+	border-radius: 50%;
+
+}
+
+.cope{
+	height: auto;
+	
+	color:white;
+	padding: 1%;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.8;
+	font-size: 12px;
+
+}
+
+.end p{
+    font-size: 13px;
+    text-align:left;
+    color:white;
+	font-family: 'Open Sans', sans-serif;
+
+
+
+}
+    /********** Footer is Ended ************/
+

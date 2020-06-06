@@ -1,0 +1,13 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+
+.bg{
+    background: url(images/diamonds-background_74945-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width:100%;
+    height:100%;
+}
